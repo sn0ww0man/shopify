@@ -540,14 +540,49 @@ jQuery(function($){
     padding-top: 1rem;
     line-height: calc(1 + 0.8 / var(--font-body-scale));
   }
-
+ .rte{
+  margin-top:100px;
+  }
+  .rte h3{
+  color:#d8b4ce;
+    margin-bottom:0px;
+}
+  .rte .term-box{
+  margin-bottom:50px;
+  }
+  .rte .term-box .desc{
+  margin-bottom:40px;
+  }
+ .rte .term-box .desc h4{
+  margin-bottom:10px;
+   line-height:1.6;
+  }
+  .rte .term-box .desc table{
+  width:100%;
+  }
+  .mobile_only{
+  display:none;
+  }
+  .rte ul{
+  padding-left:0px;
+  }
+  .rte ul li{
+  list-style: none;
+  }
+  
   @media screen and (min-width: 750px) {
     .list-menu__item--link {
       padding-bottom: 0.5rem;
       padding-top: 0.5rem;
     }
   }
+  
+  @media screen and (max-width: 749px) {
+ .rte{
+  margin-top:70px;
+   padding:0 3vw;
   }
+  } 
 </style>
 
 <script src="//cdn.shopify.com/s/files/1/0550/9772/0877/t/1/assets/details-disclosure.js?v=13038332117477895503" defer="defer"></script>
