@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.aboutArea .desc {
+  background-color: #5F90CC;
+  padding: 50px 0;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .aboutArea .desc04 .inner .item ul li h3 {
+    padding: 0 30px 30px;
+  }
+}
+
+
+
+
+
+
