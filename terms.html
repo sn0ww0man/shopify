@@ -559,11 +559,18 @@ jQuery(function($){
    line-height:1.6;
   }
   .rte .guide-box .desc table{
-  width:100%;}
+  width:100%;
+  }
+  .mobile_only{
+  display:none;
+  }
   @media screen and (min-width: 750px) {
     .list-menu__item--link {
       padding-bottom: 0.5rem;
       padding-top: 0.5rem;
+    }
+    .mobile_only{
+    display:block;
     }
   } 
 
@@ -879,7 +886,7 @@ jQuery(function($){
 <div class="guide-box">
   <h3>領収書の発行について</h3>
   <div class="desc">
-    <h4>【クレジットカード/shopPay/AmazonPay/Paypal】</h4>
+    <h4>【クレジットカード/shopPay/<br class="mobile_only">AmazonPay/Paypal】</h4>
     <p>クレジットカードで決済頂いた場合、カード会社のご利用明細を正式な領収書としてご利用頂けますが、ご希望の場合発行の対応をいたします。<br>
     領収書には決済方法がクレジットカード決済である旨を記載いたしますので、クレジットカードご利用明細と合わせてお使いください。</p>
   </div>
